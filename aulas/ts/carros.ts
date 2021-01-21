@@ -28,3 +28,7 @@ class Carros {
     }
 
 }
+
+var fiat147 = new Carros()
+fiat147.setModelo("fiat 500")
+console.log(fiat147.getModelo())
