@@ -24,3 +24,7 @@ var Carros = /** @class */ (function () {
 var fiat147 = new Carros();
 fiat147.setModelo("fiat 500");
 console.log(fiat147.getModelo());
+fiat147.setPlaca("MKV-G786");
+console.log(fiat147.getPlaca());
+fiat147.setKilometragem("35.000 KM");
+console.log(fiat147.getKilometragem());
