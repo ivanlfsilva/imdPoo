@@ -1,0 +1,22 @@
+{
+  "name": "imdpoo",
+  "version": "1.0.0",
+  "description": "curso de poo IMD",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanlfsilva/imdPoo.git"
+  },
+  "author": "ivan luis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanlfsilva/imdPoo/issues"
+  },
+  "homepage": "https://github.com/ivanlfsilva/imdPoo#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
