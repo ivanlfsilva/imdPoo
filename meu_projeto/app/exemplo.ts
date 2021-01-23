@@ -1,4 +1,4 @@
-export class Pessoa {
+class Pessoa {
   nome: string;
   sobrenome: string;
   idade: number;
@@ -28,13 +28,14 @@ export class Pessoa {
   }
 
   imprimirInfomacoes() {
-    console.log(`Nome: ${this.nome} Sobrenome: ${this.sobrenome} Idade: ${this.idade}`)
+    console.log(
+      `Nome: ${this.nome} Sobrenome: ${this.sobrenome} Idade: ${this.idade}`
+    );
   }
 }
 
 let cantor = new Pessoa();
-cantor.setNome("Steve")
-cantor.setSobrenome("Perry")
-cantor.setIdade(72)
-cantor.imprimirInfomacoes()
-
+cantor.setNome("Steve");
+cantor.setSobrenome("Perry");
+cantor.setIdade(72);
+cantor.imprimirInfomacoes();
