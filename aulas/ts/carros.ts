@@ -1,37 +1,37 @@
 class Carros {
-  private modelo: string;
-  private placa: string;
-  private kilometragem: string;
+  private _modelo: string;
+  private _placa: string;
+  private _kilometragem: string;
 
-  public getModelo(): string {
-    return this.modelo;
+  public get modelo(): string {
+    return this._modelo;
   }
 
-  public setModelo(modelo: string): void {
-    this.modelo = modelo;
+  public set modelo(modelo: string) {
+    this._modelo = modelo;
   }
 
-  public getPlaca(): string {
-    return this.placa;
+  public get placa(): string {
+    return this._placa;
   }
 
-  public setPlaca(placa: string): void {
-    this.placa = placa;
+  public set placa(placa: string) {
+    this._placa = placa;
   }
 
-  public getKilometragem(): string {
-    return this.kilometragem;
+  public get kilometragem(): string {
+    return this._kilometragem;
   }
 
-  public setKilometragem(kilometragem: string): void {
-    this.kilometragem = kilometragem;
+  public set kilometragem(kilometragem: string) {
+    this._kilometragem = kilometragem;
   }
 }
 
 var fiat147 = new Carros();
-fiat147.setModelo("fiat 500");
-console.log(fiat147.getModelo());
-fiat147.setPlaca("MKV-G786");
-console.log(fiat147.getPlaca());
-fiat147.setKilometragem("35.000 KM");
-console.log(fiat147.getKilometragem());
+fiat147.modelo = '147';
+console.log(fiat147.modelo);
+fiat147.placa = 'MKV-G786';
+console.log(fiat147.placa);
+fiat147.kilometragem = '35.000 KM';
+console.log(fiat147.kilometragem);
